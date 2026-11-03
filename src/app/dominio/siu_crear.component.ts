@@ -861,7 +861,7 @@ export class DominioSIUucrearComponent extends AbstractServiceIU implements OnIn
      * @param groupId Group id.
      */
     public isGroupVisible(groupId: string): boolean {
-        let isVisible = true;
+        let isVisible;
 
         if (groupId === '5') {
             isVisible = this.puatrInclusion.visible ||

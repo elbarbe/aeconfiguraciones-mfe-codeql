@@ -413,7 +413,7 @@ export class ConfiguracionANSSIUuTMODIFICARComponent extends AbstractServiceIU i
      * @param groupId Group id.
      */
     public isGroupVisible(groupId: string): boolean {
-        let isVisible = true;
+        let isVisible;
 
         if (groupId === '3') {
             isVisible = this.ptupuHabilLunes.visible ||
