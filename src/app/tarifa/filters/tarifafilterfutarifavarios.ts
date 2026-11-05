@@ -2,7 +2,7 @@ import { ChangeDetectorRef } from '@angular/core';
 import { AppGlobalInfo } from '../../app.appglobalinfo';
 import { Util } from '../../common/app.utils';
 import { ModelConstants } from '../../common/model.constants';
-import { Field, FieldOVPreload } from '../../common/baseIUElements';
+import { FieldOVPreload } from '../../common/baseIUElements';
 import { AbstractFilter } from '../../common/abstractFilter';
 import { StandardFunctions } from '../../common/standardFunctions';
 import { LanguageMng } from '../../common/languageMng';
